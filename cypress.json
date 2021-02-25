@@ -2,5 +2,7 @@
   "fixturesFolder": false,
   "supportFile": false,
   "baseUrl": "https://www.wikipedia.org/",
-  "projectId": "j7giwe"
+  "projectId": "j7giwe",
+  "viewportWidth": 2000,
+  "viewportHeight": 1320
 }
