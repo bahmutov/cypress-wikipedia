@@ -1,5 +1,6 @@
 {
   "fixturesFolder": false,
   "supportFile": false,
-  "baseUrl": "https://www.wikipedia.org/"
+  "baseUrl": "https://www.wikipedia.org/",
+  "projectId": "j7giwe"
 }
