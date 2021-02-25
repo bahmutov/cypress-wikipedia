@@ -10,6 +10,7 @@ jobs:
       # https://github.com/actions/virtual-environments/issues/710
       - name: Add Chinese fonts
         run: |
+          sudo apt-get update -y
           sudo apt-get install language-pack-zh* -y
           sudo apt-get install chinese* -y
 
