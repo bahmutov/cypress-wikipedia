@@ -1,1 +1,1 @@
-# cypress-wikipedia ![cypress version](https://img.shields.io/badge/cypress-6.5.0-brightgreen)
+# cypress-wikipedia ![cypress version](https://img.shields.io/badge/cypress-6.5.0-brightgreen) [![cypress-wikipedia](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/j7giwe/main&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/j7giwe/runs)
