@@ -8,8 +8,10 @@ jobs:
         uses: actions/checkout@v2
 
       # https://github.com/actions/virtual-environments/issues/710
-      - name: Add emoji font 🤩
-        run: sudo apt-get install fonts-noto-color-emoji -y
+      - name: Add Chinese fonts
+        run: |
+          sudo apt-get install language-pack-zh* -y
+          sudo apt-get install chinese* -y
 
       - name: Run tests 🧪
         uses: cypress-io/github-action@v2
