@@ -1,4 +1,19 @@
 /// <reference types="cypress" />
+
+before(function setCommandLogWidth() {
+  const commandLog = window.top.document.querySelector('.reporter-wrap')
+
+  // let's say we always want the command log to be 400px
+  if (commandLog.offsetWidth !== 400) {
+    const appIfame = window.top.document.querySelector('.runner.container')
+    commandLog.setAttribute('style', `width: 400px`)
+    appIfame.setAttribute('style', `left: 400px`)
+    window.top.dispatchEvent(new Event('resize'))
+    // let the browser resize
+    cy.wait(100, { log: false })
+  }
+})
+
 const logSizes = () => {
   // let's get the total opened browser dimensions
   const windowWidth = window.top.innerWidth
