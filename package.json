@@ -1,14 +1,14 @@
 {
   "name": "cypress-wikipedia",
   "version": "1.0.0",
-  "description": "",
+  "description": "Capturing high resolution Cypress videos and screenshots",
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run --browser chrome --headless"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "cypress": "6.6.0",

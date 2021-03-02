@@ -42,8 +42,9 @@ module.exports = (on, config) => {
 
     // the browser width and height we want to get
     // our screenshots and videos will be of that resolution
-    const width = 1920
-    const height = 1080
+    // let's set it to 4k
+    const width = 3840
+    const height = 2160
 
     console.log('setting the browser window size to %d x %d', width, height)
 
