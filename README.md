@@ -1,4 +1,4 @@
-# cypress-wikipedia [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-8.1.0-brightgreen) [![cypress-wikipedia](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/j7giwe/main&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/j7giwe/runs)
+# cypress-wikipedia [![renovate-app badge][renovate-badge]][renovate-app] ![cypress version](https://img.shields.io/badge/cypress-8.2.0-brightgreen) [![cypress-wikipedia](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/j7giwe/main&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/j7giwe/runs)
 
 Example showing how to get high resolution screenshots and videos during Cypress tests
 
