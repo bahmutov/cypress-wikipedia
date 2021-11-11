@@ -11,7 +11,7 @@
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "8.7.0",
+    "cypress": "9.0.0",
     "prettier": "2.2.1"
   }
 }
